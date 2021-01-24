@@ -1,0 +1,51 @@
+/* common styles  */
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+section {
+  min-height: 100vh;
+}
+
+.section-heading {
+  padding: 5rem 0;
+}
+
+/* footer section */
+.love {
+  font-size: 20px;
+  margin: 0;
+}
+
+.fa-heart {
+  color: #dacdd0;
+}
+
+.copy {
+  font-size: 16px;
+}
+
+footer .social-media i {
+  color: black;
+}
+
+footer .fa-instagram:hover {
+  color: #c5479f;
+}
+
+footer .fa-facebook-square:hover {
+  color: #4267b1;
+}
+
+footer .fa-snapchat-square:hover {
+  color: #fef734;
+}
+
+footer .fa-github-square:hover {
+  color: rgb(99, 24, 99);
+}
+
+footer .fa-linkedin:hover {
+  color: #2478b5;
+}

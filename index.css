@@ -13,13 +13,17 @@ section {
 }
 
 /* footer section */
+footer {
+  margin-bottom: 20px;
+}
+
 .love {
   font-size: 20px;
   margin: 0;
 }
 
 .fa-heart {
-  color: #dacdd0;
+  color: firebrick;
 }
 
 .copy {
@@ -28,18 +32,8 @@ section {
 
 footer .social-media i {
   color: black;
-}
-
-footer .fa-instagram:hover {
-  color: #c5479f;
-}
-
-footer .fa-facebook-square:hover {
-  color: #4267b1;
-}
-
-footer .fa-snapchat-square:hover {
-  color: #fef734;
+  font-size: 40px;
+  padding: 5px;
 }
 
 footer .fa-github-square:hover {
@@ -48,4 +42,8 @@ footer .fa-github-square:hover {
 
 footer .fa-linkedin:hover {
   color: #2478b5;
+}
+
+footer .fa-envelope-square:hover {
+  color: lightpink;
 }

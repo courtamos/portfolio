@@ -17,16 +17,16 @@ footer {
   margin-bottom: 20px;
 }
 
-.love {
+footer .love {
   font-size: 20px;
   margin: 0;
 }
 
-.fa-heart {
+footer .fa-heart {
   color: firebrick;
 }
 
-.copy {
+footer .copy {
   font-size: 16px;
 }
 

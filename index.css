@@ -34,7 +34,7 @@ section {
   margin: 35px 0;
 }
 
-.fa-long-arrow-alt-down {
+#home .fa-long-arrow-alt-down {
   font-size: 30px;
   position: absolute;
   left: 96px;

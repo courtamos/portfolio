@@ -12,6 +12,42 @@ section {
   padding: 5rem 0;
 }
 
+/* nav bar section */
+.navbar {
+  background-color: white;
+}
+
+.navbar-brand {
+  color: #1f1f1f;
+  font-weight: 700px;
+}
+
+.navbar-brand:hover {
+  color: lightpink;
+}
+
+.nav-link {
+  color: #1f1f1f;
+}
+
+.nav-link:hover {
+  color: lightpink;
+}
+
+#mobile-menu {
+  color: #1f1f1f;
+  font-size: 30px;
+  transition: color 0.25s ease-in-out;
+}
+
+#mobile-menu:hover {
+  color: lightpink;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
 /* home section */
 #home {
   display: flex;

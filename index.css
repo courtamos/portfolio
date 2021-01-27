@@ -77,6 +77,45 @@ section {
   bottom: 75px;
 }
 
+/* about section */
+#about h1 {
+  font-size: 60px;
+  margin: 50px 0px;
+}
+
+#about .intro-text p {
+  font-size: 20px;
+}
+
+#about .timeline {
+  margin-bottom: 50px;
+}
+
+#about .timeline-item {
+  padding-top: 50px;
+}
+
+#about .timeline-item h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#about .timeline-item h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: lightpink;
+  text-transform: uppercase;
+}
+
+#about .timeline-item h5 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#about .timeline-item p {
+  font-size: 20px;
+}
+
 /* footer section */
 footer {
   margin-bottom: 20px;

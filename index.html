@@ -23,9 +23,9 @@
             <a class="navbar-brand" href="#">Courtney Amos</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars" id="mobile-menu"></i>
+                <i id="mobile-menu" class="fas fa-bars"></i>
             </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <div id="navbarTogglerDemo02" class="collapse navbar-collapse">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" href="about">About</a>
@@ -45,10 +45,11 @@
     </nav>
 
     <div class="container">
-        <section id="home">
+        <section id="home" class="position-relative">
             <div class="intro-text">
                 <h1>Hey, I'm Courtney! 🍩</h1>
-                <p>I'm new at this coding this, and this is where something else will go eventually</p>
+                <h1 class="court-intro">I'm new at this coding this, and this is where something else will go eventually
+                </h1>
             </div>
             <i class="fas fa-long-arrow-alt-down"></i>
         </section>
@@ -64,32 +65,32 @@
             </div>
             <div class="timeline">
                 <div class="timeline-item">
-                    <h3>University</h3>
-                    <h4>Full-Time Student</h4>
-                    <h5>2015 - 2019</h5>
+                    <h2>University</h2>
+                    <h3>Full-Time Student</h3>
+                    <h4>2015 - 2019</h4>
                     <p>In 2019, after completing 4 years of full-time studies, I received my Bachelor of Arts Major in
                         Criminology. During this time I completed a co-op with BC Community Corrections where I had the
                         opportunity to explore the career of a Probation Officer.</p>
                 </div>
                 <div class="timeline-item">
-                    <h3>Surrounded by Cedar</h3>
-                    <h4>Intensive Youth Support Worker</h4>
-                    <h5>2019 - 2020</h5>
+                    <h2>Surrounded by Cedar</h2>
+                    <h3>Intensive Youth Support Worker</h3>
+                    <h4>2019 - 2020</h4>
                     <p>After completing my degree I decided to pursue a career in the Social Services field. I worked
                         with high-risk indigenous youth in care to create a safe space to make time specific goals.</p>
                 </div>
                 <div class="timeline-item">
-                    <h3>Victoria Native Friendship Centre</h3>
-                    <h4>CAPC Family Support Worker</h4>
-                    <h5>2020 - 2021</h5>
+                    <h2>Victoria Native Friendship Centre</h2>
+                    <h3>CAPC Family Support Worker</h3>
+                    <h4>2020 - 2021</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur accusantium nesciunt nihil
                         ratione, maiores debitis veritatis adipisci. Saepe tempora adipisci voluptate, aut quia magnam
                         esse laborum vel nam necessitatibus velit!</p>
                 </div>
                 <div class="timeline-item">
-                    <h3>Built Better Technology</h3>
-                    <h4>Designer & Junior Developer</h4>
-                    <h5>2020 - 2021</h5>
+                    <h2>Built Better Technology</h2>
+                    <h3>Designer & Junior Developer</h3>
+                    <h4>2020 - 2021</h4>
                     <p>Worked a part of a startup as a Designer and transitioned into a Junior Developer role. Designed
                         a variety of different websites and apps for both clients and contract companies. Contributed
                         front end development to Building Blocks Content Management System.</p>
@@ -107,16 +108,36 @@
 
         <section id="contact">
             <h1>Contact</h1>
+            <div class="row align-items-center">
+                <div class="col-12 col-md-4 col-lg-6">
+                    <h2>Get In Touch 📥</h2>
+                    <p>
+                        Have a question?
+                        <br>
+                        Send me an email and let's chat!
+                    </p>
+                    <h4>Some of my socials</h4>
+                    <div class="social-media">
+                        <a href="https://github.com/courtamos" target="_blank"><i
+                                class="fab fa-github-square animated-hover faa-shake"></i></a>
+                        <a href="https://www.linkedin.com/in/court-amos/" target="_blank"><i
+                                class="fab fa-linkedin animated-hover faa-shake"></i></a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 col-lg-6">
+                    <form action="https://formspree.io/f/xknpyepw" method="POST">
+                        <input type="text" name="name" placeholder="Name">
+                        <input type="email" name="email" placeholder="Email">
+                        <textarea name="message" id="message" rows="10" placeholder="Message"></textarea>
+                        <button type="submit">SEND</button>
+                    </form>
+                </div>
+            </div>
         </section>
 
     </div>
 
-    <footer class="text-center" id="contact">
-        <div class="social-media">
-            <a href="https://github.com/courtamos" target="_blank"><i class="fab fa-github-square"></i></a>
-            <a href="https://www.linkedin.com/in/court-amos/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="mailto: c.amos@shaw.ca"><i class="fas fa-envelope-square"></i></a>
-        </div>
+    <footer id="contact" class="text-center">
         <p class="love">Made with <i class="fas fa-heart faa-pulse animated faa-fast"></i> in Victoria, BC</p>
         <p class="copy">&copy; 2021 Courtney Amos</p>
     </footer>

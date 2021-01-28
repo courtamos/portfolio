@@ -12,6 +12,26 @@ section {
   padding: 5rem 0;
 }
 
+body h1 {
+  font-size: 60px;
+}
+
+body h2 {
+  font-size: 30px;
+}
+
+body h3 {
+  font-size: 18px;
+}
+
+body h4 {
+  font-size: 15px;
+}
+
+body p {
+  font-size: 20px;
+}
+
 /* nav bar section */
 .navbar {
   background-color: white;
@@ -60,12 +80,10 @@ section {
 }
 
 #home .intro-text h1 {
-  font-size: 60px;
   font-weight: 500;
 }
 
-#home .intro-text p {
-  font-size: 60px;
+#home .intro-text .court-intro {
   color: lightpink;
   margin: 35px 0;
 }
@@ -73,18 +91,13 @@ section {
 #home .fa-long-arrow-alt-down {
   font-size: 30px;
   position: absolute;
-  left: 96px;
+  left: 0px;
   bottom: 75px;
 }
 
 /* about section */
 #about h1 {
-  font-size: 60px;
   margin: 50px 0px;
-}
-
-#about .intro-text p {
-  font-size: 20px;
 }
 
 #about .timeline {
@@ -95,44 +108,30 @@ section {
   padding-top: 50px;
 }
 
-#about .timeline-item h3 {
-  font-size: 30px;
+#about .timeline-item h2 {
   font-weight: 600;
 }
 
-#about .timeline-item h4 {
-  font-size: 18px;
+#about .timeline-item h3 {
   font-weight: 600;
   color: lightpink;
   text-transform: uppercase;
 }
 
-#about .timeline-item h5 {
-  font-size: 15px;
+#about .timeline-item h4 {
   font-weight: 500;
 }
 
-#about .timeline-item p {
-  font-size: 20px;
-}
-
 /* contact section */
-#contact h1 {
-  font-size: 60px;
-}
-
 #contact h2 {
-  font-size: 30px;
   font-weight: 600;
 }
 
 #contact p {
-  font-size: 20px;
   margin: 15px 0px;
 }
 
 #contact h4 {
-  font-size: 18px;
   font-weight: 600;
   color: lightpink;
   text-transform: uppercase;
@@ -196,22 +195,4 @@ footer .fa-heart {
 
 footer .copy {
   font-size: 16px;
-}
-
-footer .social-media i {
-  color: black;
-  font-size: 40px;
-  padding: 5px;
-}
-
-footer .fa-github-square:hover {
-  color: rgb(99, 24, 99);
-}
-
-footer .fa-linkedin:hover {
-  color: #2478b5;
-}
-
-footer .fa-envelope-square:hover {
-  color: lightpink;
 }

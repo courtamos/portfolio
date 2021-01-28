@@ -116,6 +116,70 @@ section {
   font-size: 20px;
 }
 
+/* contact section */
+#contact h1 {
+  font-size: 60px;
+}
+
+#contact h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#contact p {
+  font-size: 20px;
+  margin: 15px 0px;
+}
+
+#contact h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: lightpink;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+#contact .social-media i {
+  font-size: 40px;
+  padding: 5px;
+  color: #1f1f1f;
+}
+
+#contact .fa-github-square:hover {
+  color: rgb(99, 24, 99);
+}
+
+#contact .fa-linkedin:hover {
+  color: #2478b5;
+}
+
+#contact form {
+  text-align: center;
+  border: #1f1f1f solid 2px;
+  border-radius: 5px;
+  padding: 40px;
+}
+
+#contact input,
+#contact textarea {
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+#contact textarea {
+  resize: none;
+}
+
+#contact button {
+  color: white;
+  background: #1f1f1f;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 100%;
+}
+
 /* footer section */
 footer {
   margin-bottom: 20px;

@@ -18,6 +18,7 @@ body h1 {
 
 body h2 {
   font-size: 30px;
+  font-weight: 600;
 }
 
 body h3 {
@@ -82,10 +83,6 @@ body p {
   padding: 90px 0;
 }
 
-#home .intro-text h1 {
-  font-weight: 500;
-}
-
 #home .intro-text .court-intro {
   color: lightpink;
   margin: 35px 0;
@@ -111,20 +108,12 @@ body p {
   padding-top: 50px;
 }
 
-#about .timeline-item h2 {
-  font-weight: 600;
-}
-
 /* tools section */
 #tools h1 {
   margin: 50px 0px;
 }
 
 /* contact section */
-#contact h2 {
-  font-weight: 600;
-}
-
 #contact p {
   margin: 15px 0px;
 }

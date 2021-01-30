@@ -18,10 +18,14 @@ body h1 {
 
 body h2 {
   font-size: 30px;
+  font-weight: 600;
 }
 
 body h3 {
   font-size: 18px;
+  font-weight: 600;
+  color: lightpink;
+  text-transform: uppercase;
 }
 
 body h4 {
@@ -79,10 +83,6 @@ body p {
   padding: 90px 0;
 }
 
-#home .intro-text h1 {
-  font-weight: 500;
-}
-
 #home .intro-text .court-intro {
   color: lightpink;
   margin: 35px 0;
@@ -108,33 +108,17 @@ body p {
   padding-top: 50px;
 }
 
-#about .timeline-item h2 {
-  font-weight: 600;
-}
-
-#about .timeline-item h3 {
-  font-weight: 600;
-  color: lightpink;
-  text-transform: uppercase;
-}
-
-#about .timeline-item h4 {
-  font-weight: 500;
+/* tools section */
+#tools h1 {
+  margin: 50px 0px;
 }
 
 /* contact section */
-#contact h2 {
-  font-weight: 600;
-}
-
 #contact p {
   margin: 15px 0px;
 }
 
 #contact h4 {
-  font-weight: 600;
-  color: lightpink;
-  text-transform: uppercase;
   margin-top: 40px;
 }
 

@@ -88,11 +88,13 @@ body p {
   margin: 35px 0;
 }
 
-#home .fa-long-arrow-alt-down {
+#home-arrow i {
+  color: #1f1f1f;
   font-size: 30px;
   position: absolute;
   left: 0px;
   bottom: 75px;
+  cursor: pointer;
 }
 
 /* about section */
